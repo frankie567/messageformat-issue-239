@@ -7,6 +7,10 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public params = {
+    count: Math.floor(Math.random() * 5),
+  };
+
   constructor(
     translate: TranslateService,
   ) {

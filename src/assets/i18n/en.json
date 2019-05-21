@@ -1,5 +1,5 @@
 {
   "app": {
-    "hello_world": "Hello world!"
+    "hello_world": "Hello. There {count, plural, =0{is nothing} one{is one thing} other{are # things}}."
   }
 }
